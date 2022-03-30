@@ -30,6 +30,7 @@ public class Customers {
 	
 	public void display() {
 		System.out.println("Customers Object return successfully");
+		System.out.println("Customers Object return successfully");
 		techDetails.tech();
 	}
 	
