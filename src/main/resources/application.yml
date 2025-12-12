@@ -1,0 +1,13 @@
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: sample-api
+
+# Optional logging configuration
+logging:
+  level:
+    root: INFO
+    org.example: DEBUG
