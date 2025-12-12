@@ -21,7 +21,7 @@ import lombok.ToString;
 
 public class Customers {
 
-	
+    //added comments
 	private int custID;
 	private String custName;
 	private String courseName;
