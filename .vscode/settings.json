@@ -1,0 +1,34 @@
+{
+    "java.home": null,
+    "java.configuration.runtimes": [],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.saveActions.organizeImports": true,
+    "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
+    "java.checkstyle.configuration": ".vscode/checkstyle.xml",
+    "java.checkstyle.version": "10.12.4",
+    "sonarlint.rules": {
+        "java:S106": "off"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/target": true,
+        "**/.idea": true
+    },
+    "java.test.config": {
+        "name": "myConfiguration",
+        "workingDirectory": "${workspaceFolder}",
+        "args": [],
+        "vmargs": [],
+        "env": {}
+    },
+    "spring-boot.ls.problem.application-properties.unknown-property": "ignore"
+}

@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch AiDemoApplication",
+            "request": "launch",
+            "mainClass": "org.example.AiDemoApplication",
+            "projectName": "AI_Demo",
+            "args": "",
+            "vmArgs": "-Dspring.profiles.active=dev"
+        },
+        {
+            "type": "java",
+            "name": "Launch AiDemoApplication (Production)",
+            "request": "launch",
+            "mainClass": "org.example.AiDemoApplication",
+            "projectName": "AI_Demo",
+            "args": "",
+            "vmArgs": "-Dspring.profiles.active=prod"
+        },
+        {
+            "type": "java",
+            "name": "Debug AiDemoApplication",
+            "request": "launch",
+            "mainClass": "org.example.AiDemoApplication",
+            "projectName": "AI_Demo",
+            "args": "",
+            "vmArgs": "-Dspring.profiles.active=dev -Xdebug"
+        }
+    ]
+}

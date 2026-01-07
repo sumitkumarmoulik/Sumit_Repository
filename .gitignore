@@ -32,7 +32,34 @@ build/
 !**/src/test/**/build/
 
 ### VS Code ###
-.vscode/
+# Keep VS Code settings for team consistency
+# .vscode/
 
 ### Mac OS ###
 .DS_Store
+
+### Logs ###
+*.log
+logs/
+
+### Database ###
+*.db
+*.sqlite
+
+### Coverage Reports ###
+coverage/
+.nyc_output/
+
+### Environment Variables ###
+.env
+.env.local
+.env.*.local
+
+### Temporary Files ###
+*.tmp
+*.temp
+.cache/
+
+### OS Generated Files ###
+Thumbs.db
+ehthumbs.db
